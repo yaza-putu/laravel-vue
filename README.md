@@ -94,9 +94,12 @@ yarn build # OR npm run build
         }
     }
     ```
-5. Fix invalid host header on dev or Error running npm run serve on new vue project
+5. Fix invalid host header on dev or Error running npm run serve on new vue project:
+    use on terminal
     <br>
+    ``` sh
     echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p <br>
     cat /proc/sys/fs/inotify/max_user_watches
     output:
     fs.inotify.max_user_watches=524288
+    ```
