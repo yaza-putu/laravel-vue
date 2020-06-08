@@ -98,7 +98,7 @@ yarn build # OR npm run build
     use on terminal
     <br>
     ``` sh
-    echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p <br>
+    echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
     cat /proc/sys/fs/inotify/max_user_watches
     output:
     fs.inotify.max_user_watches=524288
