@@ -15,7 +15,7 @@ yarn serve # OR npm run serve
 # build for production:
 yarn build # OR npm run build
 ```
-### note 
+### Note 
 * npm run serve for view developemnt vue 
 * npm run build for running vue  on laravel
 * If you need look vue on laravel you must run build
